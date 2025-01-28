@@ -1,0 +1,159 @@
+.content-heading{
+    isolation: isolate;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    max-width: 16.8rem;
+    text-align: right;
+    font-size: 1.25rem;
+}
+.th-1{
+    left: -50%;
+    top: -95px;
+}
+.th-2{
+    top: 2%;
+    left: -38%;
+}
+.th-3{
+    left: -77.5%;
+    top: 43%;
+}
+.th-4{
+    left: -50%;
+    bottom: 0;
+}
+
+/* for right  */
+
+.th-r-1{
+    top: -95px;
+    right: -43%;
+}
+.th-r-2{
+    top: 53px;
+    right: -74%;
+}
+.th-r-3{
+    top: 133px;
+    right: -79%;
+}
+.th-r-4{
+    top: 318px;
+    right: -72%;
+}
+
+
+.content-heading-lines{
+    position: relative;
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    margin-top: .125rem;
+    pointer-events: none;
+}
+
+.th-1-lines,.th-2-lines,.th-3-lines,.th-4-lines,.th-r-1-lines,.th-r-2-lines,.th-r-3-lines,.th-r-4-lines{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 1px;
+    background-color: #fff;
+    transform-origin: 0 0;
+}
+.th-1-lines{
+    width: 57%;
+    transform: rotate(35deg);
+}
+.th-2-lines{
+    width: 57%;
+    transform: rotate(28deg);
+}
+.th-3-lines{
+    width: 46%;
+    transform: rotate(10deg);
+}
+.th-4-lines{
+    width: 90%;
+    transform: rotate(-20deg);
+}
+
+.th-r-1-lines{
+    width: 55%;
+    transform: rotate(114deg);
+    right: 100% !important;
+    left: 0;
+}
+
+.th-r-2-lines{
+    width: 36%;
+    transform: rotate(145deg);
+    right: 100% !important;
+    left: 0;
+}
+.th-r-3-lines{
+    width: 36%;
+    transform: rotate(145deg);
+    right: 100% !important;
+    left: 0;
+}
+.th-r-4-lines{
+    width: 46%;
+    transform: rotate(197deg);
+    right: 100% !important;
+    left: 0;
+}
+
+
+
+.th-1-dot,.th-2-dot,.th-3-dot,.th-4-dot,.th-r-1-dot,.th-r-2-dot,.th-r-3-dot,.th-r-4-dot{
+    position: absolute;
+    width: .325rem;
+    height: .325rem;
+    border-radius: 999rem;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+
+}
+.th-1-dot{
+    bottom: -88px;
+    right: -125px;
+}
+.th-2-dot{
+    bottom: -46px;
+    right: -83px;
+}
+.th-3-dot{
+    bottom: -24px;
+    right: -118px;
+}
+.th-4-dot{
+    bottom: 48px;
+    right: -151px;
+}
+
+
+/* right  */
+
+.th-r-1-dot{
+    bottom: -133px;
+    left: -59px;
+}
+.th-r-2-dot{
+    top: 85px;
+    left: -77px;
+}
+.th-r-3-dot{
+    top: 85px;
+    left: -77px;
+}
+.th-r-4-dot{
+    top: -3px;
+    left: -113px;
+}
+
+
+
+
+/* thi upper code done  */
