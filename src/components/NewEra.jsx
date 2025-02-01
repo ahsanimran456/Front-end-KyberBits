@@ -8,7 +8,7 @@ const NewEra = () => {
   const words = `Shaping a New Era of Financial Interaction with QUSD`;
 
   return (
-    <section className="max-w-screen-xl mx-auto flex items-center w-full text-white mt-24">
+    <section className="max-w-screen-xl mx-auto flex items-center w-full text-white mt-24 mb-16">
       {/* Image Section with Animation */}
      
 

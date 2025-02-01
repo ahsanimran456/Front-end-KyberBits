@@ -1,5 +1,8 @@
+'use client'
+import { useEffect } from "react";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import HeroSectionWithAnimation from "@/components/HeroSectionWithAnimation";
 import KyberBitsTools from "@/components/KyberBitsTools";
 import Navbar from "@/components/Navbar";
 import Network from "@/components/Network";
@@ -17,9 +20,15 @@ import VPN from "@/components/VPN";
 import Image from "next/image";
 
 export default function Home() {
+  useEffect(() => {
+    // Scroll to top when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
    <main>
-        <HeroSection/>
+        <HeroSectionWithAnimation />
+        {/* <HeroSection/> */}
         <PowerHouse />
         <Platform/>
         <Network/>

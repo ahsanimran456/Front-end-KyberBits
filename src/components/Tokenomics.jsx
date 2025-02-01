@@ -11,10 +11,9 @@ const Tokenomics = () => {
   const description =
     "The total supply of tokens will be determined by the amount sold during the presale, which will consistently represent 12.85% of the total supply. This approach ensures flexibility and scalability in managing the supply based on participant interest and investment.";
 
-  return (
-    <section className="max-w-screen-xl  mx-auto flex flex-col justify-center items-center text-center text-white mt-24">
+  return ( 
+    <section className="max-w-screen-xl  relative chart-container  mx-auto flex flex-col justify-center items-center text-center text-white mt-20 pt-9">
       {/* Heading and Description */}
-      <div className="chart-container"></div>
       <motion.div
         className="text-white p-6 max-w-4xl"
         initial={{ opacity: 0, scale: 0.8 }}
